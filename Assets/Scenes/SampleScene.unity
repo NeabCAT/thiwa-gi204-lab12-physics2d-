@@ -3586,7 +3586,7 @@ Transform:
   m_GameObject: {fileID: 581469481}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.91, y: 2.58, z: 0}
+  m_LocalPosition: {x: -7.74, y: 2.58, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6136,7 +6136,6 @@ GameObject:
   - component: {fileID: 1049726839}
   - component: {fileID: 1049726840}
   - component: {fileID: 1049726841}
-  - component: {fileID: 1049726842}
   m_Layer: 0
   m_Name: Single Left
   m_TagString: Ground
@@ -6249,7 +6248,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
@@ -6264,24 +6263,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!252 &1049726842
-SurfaceEffector2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1049726838}
-  m_Enabled: 1
-  m_UseColliderMask: 1
-  m_ColliderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Speed: 20
-  m_SpeedVariation: 0
-  m_ForceScale: 0.1
-  m_UseContactForce: 1
-  m_UseFriction: 1
-  m_UseBounce: 0
 --- !u!1 &1061507444
 GameObject:
   m_ObjectHideFlags: 0
@@ -8367,7 +8348,7 @@ SurfaceEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Speed: 10
+  m_Speed: 20
   m_SpeedVariation: 0
   m_ForceScale: 1
   m_UseContactForce: 1
@@ -8805,7 +8786,7 @@ SurfaceEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Speed: 10
+  m_Speed: 20
   m_SpeedVariation: 0
   m_ForceScale: 1
   m_UseContactForce: 1
